@@ -881,9 +881,10 @@
       const lower = str.toLowerCase();
       const banned = [
         "hitler",
-        "kys",
-        "nigga",
-        "nigger",
+      ];
+          function containsBadLanguage(str) {
+      const lower = str.toLowerCase();
+      const banned = [
         "fag",
       ];
       return banned.some(w => lower.includes(w));
